@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="147dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="CRUB"
+            android:textAlignment="center"
+            android:textColor="#120F0F"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="NOMBRE"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtcedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CEDULA"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btninsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar" />
+
+        <Button
+            android:id="@+id/btncancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cancelar" />
+
+        <Button
+            android:id="@+id/btneditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnbuscar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar por id" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
